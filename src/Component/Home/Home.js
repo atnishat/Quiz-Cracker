@@ -8,9 +8,7 @@ const Home = () => {
     // console.log(quizs);
 
 
-    const practice = quiz =>{
-        console.log(quiz);
-    }
+   
     return (
         <div className='home-container'>
            
@@ -18,7 +16,7 @@ const Home = () => {
             quizs.map(quiz => <Quiz
             key={quiz.id}
             quiz={quiz}
-            practice={practice}
+            
             ></Quiz>)
            }
             

@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Quiz.css'
 
-const Quiz = ({quiz, practice}) => {
- console.log(quiz);
+const Quiz = ({quiz}) => {
+//  console.log(quiz);
 const {logo, name,id}= quiz
     
     return (
