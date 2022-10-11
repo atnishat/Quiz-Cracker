@@ -1,0 +1,28 @@
+
+.logo{
+
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+.full-logo {
+    width: 200px;
+    height: 350px;
+    border: 2px solid #c4bbccb0;
+    margin-left: 60px;
+    border-radius: 10px;
+}
+.logo-info a  {
+    padding: 10px 60px;
+    border-radius: 10px;
+    background-color: #2b70e2cf;
+    border: 2px solid white;
+    font-size: 20px;
+   text-decoration: none;
+    color: white;
+}
+.logo-info a:hover{
+    background-color: black;
+}
