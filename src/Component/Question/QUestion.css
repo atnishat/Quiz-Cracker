@@ -1,0 +1,37 @@
+.all-question-div{
+    width: 100%;
+    height: 100%;
+     display: flex;}
+   
+
+.question-div{
+    width: 800px;
+    height: 350px;
+    border: 2px solid #8196c0;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: aliceblue;
+} 
+.question-div p{ 
+    font-size: 22px;
+    padding-top: 5px;
+    font-weight: 700;
+    color: blueviolet;
+   
+   
+}
+.total-score{
+
+}
+.radio-button{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+}
+.radio-button h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #00008bcf;
+}

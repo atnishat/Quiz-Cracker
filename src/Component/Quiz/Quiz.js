@@ -15,7 +15,7 @@ const {logo, name,id}= quiz
           <h2>{name}</h2>
           <Link to={`/${id}`}>Start</Link>
           
-            {/* <button onClick={() => practice(quiz)}>Start</button> */}
+            
           </div>
          </div>
     );
