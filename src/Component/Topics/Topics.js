@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Qestion from '../Question/Qestion';
+import QuizName from '../Quizname/QuizName';
 import './Topic.css'
 
 const Topics = () => {
@@ -11,7 +12,7 @@ const Topics = () => {
     
     return (
         <div>
-            <h2>Quiz of: {topic.length}</h2>
+            <QuizName></QuizName>
             {/* <p>Id{topic[0].id}</p> */}
 
            <div className='topics'>

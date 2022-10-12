@@ -6,7 +6,7 @@ import { faEye } from '@fortawesome/free-solid-svg-icons'
 
 const Qestion = ({ques}) => {
     const {question,options,correctAnswer} = ques;
-    console.log(correctAnswer);
+    // console.log(correctAnswer);
  
         const click = () =>{
             alert(correctAnswer);
@@ -24,11 +24,10 @@ const Qestion = ({ques}) => {
                  
                 
                 <div className='radio-button'>
-                    
-                 <h3><input type="radio" value="" name=""/>{options[0]}</h3>
-                 <h3><input type="radio" />{options[1]}</h3>
-                 <h3><input type="radio"  />{options[2]}</h3>
-                 <h3><input type="radio"  />{options[3]}</h3>
+                    <button><input type="radio" value="" name=""/>{options[0]}</button>
+                    <button><input type="radio" value="" name=""/>{options[1]}</button>
+                    <button><input type="radio" value="" name=""/>{options[2]}</button>
+                    <button><input type="radio" value="" name=""/>{options[3]}</button>
                 
               
                                 

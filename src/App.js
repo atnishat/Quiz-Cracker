@@ -6,6 +6,7 @@ import Topics from './Component/Topics/Topics';
 import Statistic from './Component/Statistic/Statistic'
 import Blog from './Component/Blog/Blog';
 import Home from './Component/Home/Home';
+import QuizName from './Component/Quizname/QuizName';
 
 
 
@@ -20,6 +21,11 @@ function App() {
              loader:() => fetch(`https://openapi.programming-hero.com/api/quiz`),
              element:<Home></Home>
             },
+            {
+              path:'/',
+              loader:() => fetch('FakeData.json'),
+              element:<QuizName></QuizName>
+             },
             {
               path:'/:id',
               loader:async ({params}) => {
