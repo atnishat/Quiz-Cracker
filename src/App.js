@@ -29,7 +29,6 @@ function App() {
             {
               path:'/:id',
               loader:async ({params}) => {
-                // console.log(params.id);
                 return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
               },
               element:<Topics></Topics>
@@ -42,9 +41,11 @@ function App() {
               path:'blog',
               element:<Blog></Blog>
             }
-          ]
-
-        }
+          ]},
+        {
+          path : '*' ,
+           element: <div>this route not found</div>
+          }
   ])
   return (
     <div className="App">

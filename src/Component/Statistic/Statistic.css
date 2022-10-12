@@ -1,0 +1,11 @@
+.rechart{
+    height: 600px;
+    padding-left: 400px;
+    padding-top: 90px;
+}
+.rechart-topic h1{
+    padding-top: 70px;
+    font-size: 40px;
+    font-weight: 400;
+    color: blueviolet;
+}

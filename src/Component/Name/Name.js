@@ -1,12 +1,11 @@
 import React from 'react';
 
-const Name = ({ts}) => {
-    const{id,name} = ts;
-console.log(ts);
+const Name = () => {
+    
+    
     return (
         <div>
-            <p>{id}</p>
-            <p><small>{name}</small></p>
+          
         </div>
     );
 };

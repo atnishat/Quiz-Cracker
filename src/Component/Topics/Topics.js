@@ -24,10 +24,6 @@ const Topics = () => {
                 ></Qestion>)
             }
            </div>
-            
-            <div className='total-score'>
-                <h2>Total..........</h2>
-             </div> 
            </div>
         </div>
     );
