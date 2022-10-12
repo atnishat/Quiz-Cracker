@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Qestion from '../Question/Qestion';
+import './Topic.css'
 
 const Topics = () => {
     const topic = useLoaderData().data.questions;
@@ -14,7 +15,7 @@ const Topics = () => {
             {/* <p>Id{topic[0].id}</p> */}
 
            <div className='topics'>
-           <div>
+           <div className='topic-info'>
            {
                 topic.map(ques=> <Qestion
                 key={ques.id}
@@ -24,7 +25,7 @@ const Topics = () => {
            </div>
             
             <div className='total-score'>
-                <h2>Total</h2>
+                <h2>Total..........</h2>
              </div> 
            </div>
         </div>

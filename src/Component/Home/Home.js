@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Banner from '../Banner/Banner';
 import Quiz from '../Quiz/Quiz';
 import './Home.css'
 
@@ -10,8 +11,12 @@ const Home = () => {
 
    
     return (
-        <div className='home-container'>
+        <div >
+           <div>
+           <Banner></Banner>
+           </div>
            
+           <div className='home-container'>
            {
             quizs.map(quiz => <Quiz
             key={quiz.id}
@@ -20,6 +25,7 @@ const Home = () => {
             ></Quiz>)
            }
             
+           </div>
         </div>
     );
 };

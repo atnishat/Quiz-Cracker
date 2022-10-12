@@ -1,0 +1,14 @@
+.banner-info p{
+    font-size: 30px;
+    color: #912be2;
+    font-weight: 400;
+}
+
+
+
+.banner-img img{
+    height:200px;
+    width: 200px;
+    background-color: black;
+   
+}
