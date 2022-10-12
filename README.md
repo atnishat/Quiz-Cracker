@@ -1,5 +1,5 @@
 Project: My QuiZZ.
-Find this project Live:
+Find this project Live:https://jolly-bonbon-eec6fd.netlify.app/
 About this project:
 This is a simple project made with easy-and-go features and design as well. The platform hereby offers an exam online.
 Features to look on:
