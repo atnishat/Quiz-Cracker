@@ -1,14 +1,13 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Name from '../Name/Name';
 import Qestion from '../Question/Qestion';
 import QuizName from '../Quizname/QuizName';
 import './Topic.css'
 
 const Topics = () => {
     const topic = useLoaderData().data.questions;
-    // const option = useLoaderData().data.questions[0].options;
-    // const option = useLoaderData().data.questions[0];
-    // console.log(topic[0].options);
+//    console.log(topic);
     
     return (
         <div>
@@ -22,6 +21,12 @@ const Topics = () => {
                 key={ques.id}
                 ques={ques}
                 ></Qestion>)
+            }
+            {
+                topic.map(hl => <Name
+                key={hl.id}
+                hl={hl}
+                ></Name>)
             }
            </div>
            </div>

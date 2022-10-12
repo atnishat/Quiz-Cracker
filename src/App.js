@@ -7,6 +7,7 @@ import Statistic from './Component/Statistic/Statistic'
 import Blog from './Component/Blog/Blog';
 import Home from './Component/Home/Home';
 import QuizName from './Component/Quizname/QuizName';
+import Name from './Component/Name/Name';
 
 
 
@@ -32,6 +33,13 @@ function App() {
                 return fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
               },
               element:<Topics></Topics>
+            },
+            {
+              path:'/:quiz',
+              loader:async ({params}) => {
+                return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quiz}`)
+              },
+              element:<Name></Name>
             },
             {
               path:'statistic',
